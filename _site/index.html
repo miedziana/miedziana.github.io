@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Raleway" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+</head>
+<body class="container">
+	<div style="display: grid; grid-template-columns: 25% 75%;">
+		<div class="eye title-container">
+			<div class="name">magdalena sadlo</div>
+			<div class="title">software engineer</div>
+		</div>
+		<div id="tabs">
+			<ul style="list-style: none; display: grid; grid-template-columns: 50% 50%; font-size: 1.5em; text-decoration: none">
+			    <li><a href="#fragment-1" class="menu-item eye">about me</a></li>
+<!-- 			    <li><a href="#fragment-2" class="menu-item eye">resume</a></li> -->
+			    <li><a href="#fragment-3" class="menu-item eye ">contact</a></li>
+		  	</ul>
+		  <div style="display: grid; grid-template-columns: 40% 60%;padding: 50px;font-weight: lighter;" id="fragment-1">
+			<div>
+				<img src="assets/img/profile.jpg" alt="profile" class="profile-pic eye">
+			</div>
+			<div class="about-me-text">
+				My name is Magda and I am a software engineer.
+			</div>
+		  </div>
+		  
+		  <div style="display: grid; grid-template-columns: 20% 80%;padding: 50px;font-weight: lighter;" id="fragment-3">
+		  	<div>
+			</div>
+			<div>
+			<form class="contact-form" name="contactform" method="post" action="https://nfh5490h3b.execute-api.us-east-1.amazonaws.com/dev/contact">
+			<table width="450px">
+			<tr>
+			 <td valign="top">
+			  <label for="from">E-mail:</label>
+			 </td>
+			 <td valign="top">
+			  <input type="text" name="from" maxlength="50" size="30" class="input">
+			 </td>
+			</tr>
+			<tr>
+			 <td valign="top">
+			  <label for="subject">Subject:</label>
+			 </td>
+			 <td valign="top">
+			  <input  type="text" name="subject" maxlength="80" size="30" class="input">
+			 </td>
+			</tr>
+			<tr>
+			 <td valign="top">
+			  <label for="body">Message:</label>
+			 </td>
+			 <td valign="top">
+			  <textarea name="body" maxlength="1000" cols="25" rows="6"></textarea>
+			 </td>
+			</tr>
+			<tr>
+			 <td colspan="2">
+			 <a href="./">
+			  <input type="submit" value="Submit" class="submit-button">
+			  </a>
+			 </td>
+			</tr>
+			</table>
+			</form>
+
+			</div>
+
+		  </div>
+
+	</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,155 @@
+.eye{
+border-radius: 60px 30px 100px 60px;
+transform: rotate(15deg);
+-webkit-transform: rotate(15deg);
+-ms-transform: rotate(15deg);
+-moz-transform: rotate(15deg);
+margin-left: 30px;
+margin-top: 40px;
+background-color: yellow;
+	/*box-shadow: 5px 10px 8px #888888;*/
+}
+
+
+.menu-item {
+/*	border-radius: 50%; 
+	background-color: #749C9A; 
+	height: 5em; 
+	width: 5em; 
+	text-align: center; 
+	margin: auto; 
+	box-shadow: 3px 3px #A9C4C3;
+	justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;*/
+    font-size: 1em;
+	font-family: 'Cormorant Garamond', serif;
+	line-height: 1.5em;
+	list-style-type: none;
+
+}
+
+.grid-top {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	padding: 50px;
+}
+
+.title-container {
+	height: 300px
+}
+
+a, a:link, a:visited, a:hover, a:active, a:-webkit-any-link {
+  text-decoration: none; 
+  color: black;
+  transform: scale(2);
+}
+
+
+.grid-content {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	font-weight: lighter;
+}
+
+.profile-pic {
+	width: 100%; 
+	height: auto;
+	margin: auto;
+	transform: rotate(0deg);
+-webkit-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+margin-top: 0rem;
+margin-left: -15em;
+
+}
+
+.profile-pic:hover {
+
+}
+
+.about-me-text {
+	text-align: justify;
+	padding: 0 5%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+}
+
+.name {
+	font-size: 32px;
+	font-family: 'Cormorant Garamond', serif;
+	width: 250px;
+}
+
+.title {
+	font-size: 24px;
+	font-family: 'Cormorant Garamond', serif;
+	height: 100%;
+	width: 250px;
+}
+
+a {
+	color: black;
+	border: solid 2px transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	border: dashed 2px yellow;
+}
+
+.input {
+	width: 20rem;
+	border: 0;
+	border-bottom: dashed 3px grey;
+	margin-bottom: 2rem;
+	margin-left: 2rem;
+}
+
+textarea {
+    resize: none;
+    width: 20rem;
+    height: 20rem;
+    border: dashed 3px grey;
+    margin-left: 2rem;
+}
+
+.contact-form {
+	font-family: 'Raleway', sans-serif;
+}
+
+.submit-button {
+	border-radius: 60px 30px 100px 60px;
+	margin-left: 30px;
+	margin-top: 40px;
+	background-color: yellow;
+	height: 3rem;
+	width: 6rem;
+	border: none;
+	font-size: 1.3em;
+	font-family: 'Cormorant Garamond', serif;
+
+}
+
+@media  (max-width: 700px) { 
+.grid-container {
+	display: grid;
+	grid-template-columns: auto;
+	padding: 50px;
+}
+
+.name {
+	font-size: 80px;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+
+.profile-pic {
+	width: 800px; 
+	height: auto;
+	margin: auto;
+}
+
+}
