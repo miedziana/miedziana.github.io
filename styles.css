@@ -55,36 +55,65 @@ a:hover {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 	body::after {
-		background-color: yellow;
+		content: "";
+		background-image: url("assets/img/profile.jpg");
+		background-position: center top;
+		background-size: auto 100%;
+		opacity: 0.5;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;  
 	}
+
+	.fa-3 {
+		font-size: 100pt;
+	}
+	.name {
+		font-size: 80pt;
+		font-family: 'Cormorant Garamond', serif;
+	}
+
+	.title {
+		font-size: 60pt;
+		font-family: 'Cormorant Garamond', serif;
+		height: 100%;
+		width: 250px;
+	}
+
+	.about-me-text {
+		text-align: justify;
+		width: 250pt;
+		margin:-left 5pt;
+		font-family: 'Raleway', sans-serif;
+		font-weight: lighter;
+		font-size: 50pt;
+	}
+
 } 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-	body::after {
-		background-color: green;
-	}
-} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-		body::after {
-		background-color: blue;
-	}
-} 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media (min-width: 1080px) {
 	body::after {
-		background-color: red;
+		content: "";
+		background-image: url("assets/img/profile.jpg");
+		background-position: center top;
+		background-size: 100% auto;
+		opacity: 0.5;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;  
 	}
-} 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-		body::after {
-		background-color: white;
-	}
+		.fa-3 {
+	font-size: 35pt;
 }
+} 
