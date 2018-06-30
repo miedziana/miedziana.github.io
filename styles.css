@@ -15,8 +15,6 @@ a:hover {
 }
 
 
-
-
 body::after {
 	content: "";
 	background-image: url("assets/img/profile.jpg");
@@ -45,14 +43,18 @@ body::after {
 
 .about-me-text {
 	text-align: justify;
-	width: 18em;
-	margin: auto;
+	width: 250pt;
+	margin:-left 5pt;
 	font-family: 'Raleway', sans-serif;
 	font-weight: lighter;
 	font-size: 13pt;
 }
 
-@media (max-width: 1200px) {
+.fa-3 {
+	font-size: 40pt;
+}
+
+@media (min-width: 1200px) {
 
 	body::after {
 		content: "";
