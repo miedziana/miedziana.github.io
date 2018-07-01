@@ -55,7 +55,7 @@ a:hover {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
+@media (max-width: 1080px) {
 	body::after {
 		content: "";
 		background-image: url("assets/img/profile.jpg");
@@ -87,11 +87,11 @@ a:hover {
 
 	.about-me-text {
 		text-align: justify;
-		width: 250pt;
+		width: 300pt;
 		margin:-left 5pt;
 		font-family: 'Raleway', sans-serif;
 		font-weight: lighter;
-		font-size: 50pt;
+		font-size: 30pt;
 	}
 
 } 
