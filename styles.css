@@ -56,7 +56,7 @@ a:hover {
 
 } 
 
-@media (min-width: 801px) {
+/*@media (min-width: 801px) {
 	body::after {
 		content: "";
 		background-image: url("assets/img/profile.jpg");
@@ -95,7 +95,7 @@ a:hover {
 	}
 
 } 
-
+*/
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 1080px) {
