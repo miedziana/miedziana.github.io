@@ -15,7 +15,8 @@ a:hover {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 1080px) {
+@media only screen and (max-width: 800px) {
+
 	body::after {
 		content: "";
 		background-image: url("assets/img/profile.jpg");
@@ -31,10 +32,10 @@ a:hover {
 	}
 
 	.fa-3 {
-		font-size: 100pt;
+		font-size: 50pt;
 	}
 	.name {
-		font-size: 80pt;
+		font-size: 70pt;
 		font-family: 'Cormorant Garamond', serif;
 	}
 
@@ -42,7 +43,46 @@ a:hover {
 		font-size: 60pt;
 		font-family: 'Cormorant Garamond', serif;
 		height: 100%;
-		width: 250px;
+	}
+
+	.about-me-text {
+		text-align: justify;
+		width: 100%;
+		margin:-left 5pt;
+		font-family: 'Raleway', sans-serif;
+		font-weight: lighter;
+		font-size: 30pt;
+	}
+
+} 
+
+@media (min-width: 801px) {
+	body::after {
+		content: "";
+		background-image: url("assets/img/profile.jpg");
+		background-position: center top;
+		background-size: auto 100%;
+		opacity: 0.5;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;  
+	}
+
+	.fa-3 {
+		font-size: 30pt;
+	}
+	.name {
+		font-size: 40pt;
+		font-family: 'Cormorant Garamond', serif;
+	}
+
+	.title {
+		font-size: 30pt;
+		font-family: 'Cormorant Garamond', serif;
+		height: 100%;
 	}
 
 	.about-me-text {
@@ -51,7 +91,7 @@ a:hover {
 		margin:-left 5pt;
 		font-family: 'Raleway', sans-serif;
 		font-weight: lighter;
-		font-size: 30pt;
+		font-size: 15pt;
 	}
 
 } 
