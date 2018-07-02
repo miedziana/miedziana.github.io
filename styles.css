@@ -32,15 +32,15 @@ a:hover {
 	}
 
 	.fa-3 {
-		font-size: 50pt;
+		font-size: 25pt;
 	}
 	.name {
-		font-size: 70pt;
+		font-size: 35pt;
 		font-family: 'Cormorant Garamond', serif;
 	}
 
 	.title {
-		font-size: 60pt;
+		font-size: 28pt;
 		font-family: 'Cormorant Garamond', serif;
 		height: 100%;
 	}
@@ -48,10 +48,10 @@ a:hover {
 	.about-me-text {
 		text-align: justify;
 		width: 100%;
-		margin:-left 5pt;
+		margin:-left 2pt;
 		font-family: 'Raleway', sans-serif;
 		font-weight: lighter;
-		font-size: 30pt;
+		font-size: 16pt;
 	}
 
 } 
